@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_repeater_repeaters",
+  "info": {
+    "displayName": "ingredient",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drinks",
+  "info": {
+    "singularName": "drink",
+    "pluralName": "drinks",
+    "displayName": "drinks",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "shooter",
+        "dropshot",
+        "cocktail",
+        "mocktail"
+      ]
+    },
+    "ingredients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeater.repeater"
+    }
+  }
+}

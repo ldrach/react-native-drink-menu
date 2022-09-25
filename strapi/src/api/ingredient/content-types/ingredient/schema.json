@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ingredients",
+  "info": {
+    "singularName": "ingredient",
+    "pluralName": "ingredients",
+    "displayName": "ingredient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "oz": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string"
+    },
+    "drinks_id": {
+      "type": "integer"
+    }
+  }
+}
